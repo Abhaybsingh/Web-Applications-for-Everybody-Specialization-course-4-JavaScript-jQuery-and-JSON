@@ -1,0 +1,23 @@
+<p>
+    <!-- this is a href , it will work as button , whenever it is pressed the add function is called -->
+    <a href="#" onclick="add();return false;" id="the-href">More</a>
+</p>
+<ul id="the-list">
+<li>First Item</li>
+</ul>
+<script>
+counter = 1;
+// printing the element by its id
+console.log(document.getElementById('the-list'))
+function add() {
+    // creating a htmle element by js
+    var x = document.createElement('li');
+    // linking the class to this js
+    x.className = "list-item";
+    // setting the innerHtml data
+    x.innerHTML = "The counter is "+counter;
+    //adding child node to the class which is linked above
+    document.getElementById('the-list').appendChild(x);
+    counter++;
+}
+</script>

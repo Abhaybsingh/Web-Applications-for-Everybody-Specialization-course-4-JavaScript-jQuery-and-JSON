@@ -1,0 +1,13 @@
+<p>
+Hello <b><span id="person">Chuck</span></b> there.
+</p> 
+<script type="text/javascript">
+// printing the details of the person id
+console.dir(document.getElementById('person'));
+// setting the value in that tag to st
+st = document.getElementById('person').innerHTML;
+console.log("ST = "+st);
+alert('Hi there ' + st);
+// changing the value in the person id 
+document.getElementById('person').innerHTML = 'Joseph';
+</script>

@@ -1,0 +1,13 @@
+<p>js-11</p>
+<script type="text/javascript">
+// scope is this gl only in this script tag
+gl = 123;
+function check() {
+   // a new variable is declared in this check function
+   // the gl is different then above one
+   var gl = 456;
+}
+check();
+window.console && console.log("GL = "+gl);
+</script>
+
