@@ -1,0 +1,5 @@
+How we manipulate the object document model by javascript?
+
+DOM is how we see the webiste in real life. We have a request response 
+cycle which is going to write javascript in it. Javascript look in DOM 
+and write in DOM.
