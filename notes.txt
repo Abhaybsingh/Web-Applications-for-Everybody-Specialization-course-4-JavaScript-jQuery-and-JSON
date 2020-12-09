@@ -1,0 +1,113 @@
+Everything so far is rendered in php. Now we are going to render some part
+in browser this is basically done by using javascript.
+
+javascript 
+javascript was invented for browser. it is use to add interactivity 
+dynamically.
+
+We have to explitly say the changes.
+
+alert pauses the execution of entire code in browser. 
+
+3 basic way to add javascript
+
+inline
+it is like adding js in between the html with script tag
+
+as part of the html tag
+it is like adding onclick in between the anchor tag
+return false it is used for stoping the anchor tag to follow the href
+and only executes the function associated with onclick
+
+from a external file
+By using javascript, and adding file with src attribute.
+
+
+Core Language ffetures
+
+typeof operator is used to check the type of any variable
+
+for (ball in balls) - for loop like python
+
+
+Debugging
+
+alert id used to stop the execution of the browser
+
+window.console is used to check if console is active
+
+
+
+oop in javascript
+
+funcion keyword itself is executeable, it has a return value. 
+
+First class function 
+
+
+this keyword function points to the object of current class
+
+
+Jquery basic 
+
+when th response comes from the server the response is parsed, some js code
+is executed so jquery has some libraries that helps the js easier to use.
+
+jquery defines a global object with $ sign. here $ is a function object.
+
+.document is the pre defined object model in js in all the browser.
+
+ready methos is a parameter. the first class functions return code.
+
+query doesn't execute the function until the document is loaded fully until
+to be viewed.
+
+it is like registering an event.
+
+
+if you want to make modification to any tml tag id should be refrenced 
+by # in the jquery.
+
+
+now jquery will talk to the server 
+
+
+
+jquery might talk to database and server through this functionality the 
+pop up function can be added to our web page.
+
+
+
+
+JSON 
+
+
+asynchronous html http
+
+format of the data is JSON
+
+AJAX
+
+wire format - known syntax to all the Language
+
+serializing - encode
+
+deserialize - decode
+
+
+json and jquery - associative objects
+
+
+console.dir(objectName) this will print the data in console
+
+json_encode(parameter)  -parameter can be associative array, linear array,
+keyvalue array
+
+it will parse it in javascript.
+
+pretty print will indent the minimized code  in json
+
+$.getJSON(url, response)  it will make a get request to receive a json file,  
+response is the actual response from url, so it will deserialize it, then pass the
+data in the code
+
